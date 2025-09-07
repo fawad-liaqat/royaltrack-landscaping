@@ -17,7 +17,7 @@ export default function SocialWidgets() {
     cursor: "pointer",
   };
 
-  const whatsappNumbers = ["00971522485027", "00971552252897"];
+  const whatsappNumbers = ["+971522485027", "+971552252897"];
 
   const handleWhatsAppClick = (number: string) => {
     setShowWhatsAppOptions(false); // close dropdown
